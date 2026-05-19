@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Catatan Harian</h1>
+  <form action="/notes/add" method="POST">
+    <input type="text" name="title" placeholder="Judul catatan" required><br>
+    <textarea name="content" placeholder="Isi catatan..." required></textarea><br>
+    <button type="submit">Tambah Catatan</button>
+  </form>
+
+  <h2>Daftar Catatan</h2>
+  <!-- Catatan akan ditampilkan oleh server -->
+  <p>Catatan akan muncul di sini setelah login.</p>
+
+  <a href="/logout">Logout</a>
+</body>
+</html>
