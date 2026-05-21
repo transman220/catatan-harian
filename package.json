@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "catatan-harian",
   "version": "1.0.0",
   "description": "Project Express dengan MongoDB untuk Vercel",
@@ -6,6 +7,8 @@
   "scripts": {
     "start": "node server.js"
   },
+=======
+>>>>>>> a4e8fa9d0e5741b63aea8e46729137fb3e4a8338
   "dependencies": {
     "bcrypt": "^6.0.0",
     "express": "^5.2.1",
