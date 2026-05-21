@@ -1,0 +1,15 @@
+{
+  "name": "catatan-harian",
+  "version": "1.0.0",
+  "description": "Project Express dengan MongoDB untuk Vercel",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "mongoose": "^9.6.2"
+  }
+}
